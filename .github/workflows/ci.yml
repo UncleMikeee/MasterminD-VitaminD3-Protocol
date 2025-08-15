@@ -14,10 +14,19 @@ jobs:
       - name: Lint Markdown
         uses: markdownlint/markdownlint-action@v1
 
-  link-check:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - name: Check links in README
-        run: markdown-link-check README.md
+link-check:
+     runs-on: ubuntu-latest
+     steps:
+       - uses: actions/checkout@v3
++      - name: Set up Node.js
++        uses: actions/setup-node@v3
++        with:
++          node-version: '16'
++
++      - name: Install markdown-link-check
++        run: npm install -g markdown-link-check
++
+       - name: Check links in README
+-        run: markdown-link-check README.md
++        run: markdown-link-check README.md
 
