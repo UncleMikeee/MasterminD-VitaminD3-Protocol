@@ -1,30 +1,22 @@
-name: CI
-
-on:
-  push:
-    branches: [ main ]
-  pull_request:
-
 jobs:
   link-check:
     runs-on: ubuntu-latest
-
     steps:
-      - name: 1. Checkout code
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: 2. Setup Node.js
+      - name: Setup Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: '16'
+          node-version: '18'       # ← bump this from 16 to 18
 
-      - name: 3. Install markdown-link-check
+      - name: Install markdown-link-check
         run: npm install -g markdown-link-check
 
-      - name: 4. Verify installation
+      - name: Verify installation
         run: |
           echo "Binary location:" $(which markdown-link-check)
           markdown-link-check --version
 
-      - name: 5. Run link-check
+      - name: Run link-check
         run: markdown-link-check README.md
