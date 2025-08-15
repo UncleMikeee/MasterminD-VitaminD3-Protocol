@@ -137,8 +137,14 @@ A comprehensive, science-backed vitamin D₃ regimen with a VDR-support layer to
 
 ---
 
+## Credits  
+
+💡 Protocol dreamed up and implemented by [Michael Moy](https://github.com/UncleMikeee) — August 2025  
+*Keeping your Markdown flawless and your links on point, one CI run at a time.*
+
 ## License
 
 This project is licensed under the MIT License – see the [LICENSE](LICENSE) file for details.  
 © 2025 Michael Moy
        
+
