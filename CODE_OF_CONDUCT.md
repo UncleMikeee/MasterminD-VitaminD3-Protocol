@@ -15,4 +15,5 @@ experience for everyone.
 ## Enforcement
 
 Instances of abusive or harassing behavior may be reported to the project team
-at [mike_moy@protonmail.com]. All complaints will be reviewed and investigated promptly and fairly.
+at [mike_moy@protonmail.com]. All complaints will be reviewed and investigated
+promptly and fairly.
