@@ -1,0 +1,13 @@
+{
+  "name": "MasterminD",
+  "version": "1.0.0",
+  "scripts": {
+    "lint:md": "markdownlint \"**/*.md\""
+  },
+  "markdownlintConfig": {
+    "MD013": false,
+    "MD041": true,
+    "MD029": { "style": "ordered" },
+    "MD034": { "style": "angle_brackets" }
+  }
+}

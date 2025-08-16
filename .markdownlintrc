@@ -1,0 +1,6 @@
+{
+  "MD013": false,
+  "MD041": true,
+  "MD029": { "style": "ordered" },
+  "MD034": { "style": "angle_brackets" }
+}
