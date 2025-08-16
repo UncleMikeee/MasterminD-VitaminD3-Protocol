@@ -1,6 +1,4 @@
 {
-  "MD013": { "line_length": 80, "tables": false, "code_blocks": false },
-  "MD041": true,
-  "MD029": { "style": "ordered" },
-  "MD034": { "style": "angle_brackets" }
+  "MD022": false,  // disable heading blank line rule
+  "MD033": false   // allow inline HTML
 }
