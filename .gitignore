@@ -1,0 +1,4 @@
+.markdownlintrc.bak
+lint-errors.json
+lint-report.txt
+node_modules/
