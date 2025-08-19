@@ -177,8 +177,15 @@ thereof.
 
 ## Credits
 
-Protocol designed and implemented by  
-[Michael Moy](https://github.com/UncleMikeee) — August 2025  
+Protocol designed and implemented by
+[Michael Moy](https://github.com/UncleMikeee) — August 2025
+
+---
+
+## How to Cite
+
+Michael Moy (2025). MasterminD-VitaminD3-Protocol.
+GitHub repository, [UncleMikeee/MasterminD-VitaminD3-Protocol](https://github.com/UncleMikeee/MasterminD-VitaminD3-Protocol)
 
 ---
 
